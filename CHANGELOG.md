@@ -16,6 +16,7 @@
 - add Mailinglist support
 - add support for overwritten sender name (also sometimes referred to as impersonation)
 - add experimental audit log to chats (view where only info/system messages are shown such as member added/removed)
+- add support for handling `mailto:` links.
 
 ## Fixed
 - Fix source-mapped stack trace on crash screen in bundled production builds
