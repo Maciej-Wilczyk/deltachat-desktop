@@ -195,9 +195,9 @@ function buildContextMenu(
       action: () => runtime.writeClipboardText(link),
     },
     // Copy videocall link to clipboard
-    message.msg.videochatUrl !== '' && {
+    message.videochatUrl !== '' && {
       label: tx('menu_copy_link_to_clipboard'),
-      action: () => runtime.writeClipboardText(message.msg.videochatUrl),
+      action: () => runtime.writeClipboardText(message.videochatUrl),
     },
     // Open Attachment
     showAttachmentOptions &&
